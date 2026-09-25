@@ -1,0 +1,372 @@
+Desktop - Closed <header> [0,0 810x45] pad 0 20 0 20 | flex-col center/center
+  Close menu <div> [0,0 810x1080] bg rgba(0, 0, 0, 0.4) | pos absolute | op 0
+  Nav <nav> [20,0 770x45] pad 6 6 6 6 | gap 48px | flex-col flex-start/flex-start | r 0px 0px 16px 16px | bg rgb(220, 234, 244) | maxw 1520px | blur blur(8px)
+    Top <div> [26,6 758x33] gap 8px | flex-row center/center
+      Logo <a> [26,13 71x19] pad 0 0 0 8 | gap 6px | flex-row flex-start/center
+      Logo <img> [34,13 63x19]  src IeIALCt1iExgaDaXvddRsQAdfFA.sv alt=''
+      Links <div> [105,6 679x33] pad 0 0 0 16 | flex-row flex-end/center
+        Pages <div> [121,14 502x17] pad 0 5 0 0 | gap 16px | flex-row flex-end/center
+          About <div> [414,14 35x17] 
+            14 <a> [414,14 35x17] gap 6px | flex-row center/flex-start || "About
+
+About" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+              Text <div> [414,14 35x17] gap 8px | flex-col center/center
+              Text <p> [414,14 35x17]  || "About" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(13, 22, 79) al left
+          Professionals <div> [322,14 76x17] 
+            14 <a> [322,14 76x17] gap 6px | flex-row center/flex-start || "Professionals
+Professionals" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+              Text <div> [322,14 76x17] gap 8px | flex-col center/center
+              Text <p> [322,14 76x17]  || "Professionals" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(13, 22, 79) al left
+          Privacy <div> [465,14 41x17] 
+            14 <a> [465,14 41x17] gap 6px | flex-row center/flex-start || "Privacy
+Privacy" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+              Text <div> [465,14 41x17] gap 8px | flex-col center/center
+              Text <p> [465,14 41x17]  || "Privacy" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(13, 22, 79) al left
+          Privacy <div> [522,14 33x17] 
+            14 <a> [522,14 33x17] gap 6px | flex-row center/flex-start || "News
+News" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+              Text <div> [522,14 33x17] gap 8px | flex-col center/center
+              Text <p> [522,14 33x17]  || "News" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(13, 22, 79) al left
+          Support <div> [571,14 47x17] 
+            14 <a> [571,14 47x17] gap 6px | flex-row center/flex-start || "Support
+Support" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+              Text <div> [571,14 47x17] gap 8px | flex-col center/center
+              Text <p> [571,14 47x17]  || "Support" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(13, 22, 79) al left
+        Black <a> [660,6 124x33] pad 8 20 8 20 | gap 6px | flex-row center/center | r 30px | bg rgb(13, 22, 79) || "Download App
+Download App" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [680,14 84x17] gap 8px | flex-col center/center
+          Text <p> [680,14 84x17]  || "Download App" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+      Links <svg> [633,14 18x18] 
+      Links <svg> [661,17 12x12] 
+Main <main> [0,0 810x10016] flex-col center/center | bg rgb(255, 251, 247)
+  Hero <section> [0,0 810x914] gap 8px | flex-col center/center | bg rgb(255, 251, 247) | maxw 1600px
+    Container <div> [0,0 810x914] pad 120 20 0 20 | gap 40px | flex-col flex-start/center
+      Headline <div> [20,120 770x206] gap 24px | flex-row center/flex-start
+      Headline <h1> [20,120 589x141]  || "Clarity when it matters most" Bricolage Grotesque 64px/70.4px ls -3.2px var  c rgb(13, 22, 79) al start
+      Headline <p> [20,261 589x65]  || "Record every medical appointment. Get a clear summ" Uncut Sans Variable Variable 18px/21.6px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+        Title <div> [633,120 157x198] flex-col space-between/center
+        Title <img> [651,139 121x118] r 5px src UGl49TxXmHollnHUWPY5ogOFY.png? alt=''
+          Black <a> [633,276 157x42] pad 8 20 8 20 | gap 6px | flex-row center/center | r 30px | bg rgb(13, 22, 79) || "Download App
+            Text <div> [653,289 84x17] gap 8px | flex-col center/center
+            Text <p> [653,289 84x17]  || "Download App" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+            Icon <div> [744,284 26x26] pad 6 6 6 6 | gap 8px | flex-col center/center | r 16px | bg rgb(191, 214, 230)
+            Icon <svg> [744,269 26x14] 
+            Icon <svg> [750,290 14x14] 
+      Details <div> [20,366 770x548] gap 16px | flex-col flex-end/center
+        Logos <div> [20,366 770x51] gap 100px | flex-row center/flex-end
+          Default <a> [20,366 557x51] gap 20px | flex-col center/center
+            Logo <div> [-153,369 45x45] gap 16px | flex-row center/center
+            Logo <img> [-153,369 45x45]  src swThgpQQsACyV6fGKNPwV568A7c.pn alt=''
+            Logo <div> [-68,372 60x38] gap 16px | flex-row center/center
+            Logo <img> [-68,372 60x38]  src 8MmLFPzHY5otweQOkI60RDUTV1k.pn alt=''
+            Logo <div> [32,372 70x38] gap 16px | flex-row center/center
+            Logo <img> [32,372 70x38]  src aalGWHDbi8MAKdESlNED5pPOI.png? alt=''
+            Logo <div> [142,375 82x33] gap 16px | flex-row center/center
+            Logo <img> [142,375 82x33]  src IhyaqIu2M40bY1MdxibrNCL8.png?w alt=''
+            Logo <div> [264,372 52x38] gap 16px | flex-row center/center
+            Logo <img> [264,372 52x38]  src yd2JQG6BhNAAiVjVHZ2rmU3Knc.png alt=''
+            Logo <div> [356,376 83x31] gap 16px | flex-row center/center
+            Logo <img> [356,376 83x31]  src CmoSk3B68NtiXdlJFrizLJdQNC4.pn alt=''
+            Logo <div> [479,373 56x37] gap 16px | flex-row center/center
+            Logo <img> [479,373 56x37]  src AXauX0XGPtulSU26cWZkIudWSaU.pn alt=''
+          Rating <div> [677,377 113x40] gap 6px | flex-col center/flex-end
+            Rating <div> [677,377 113x17] gap 6px | flex-row flex-end/center
+              Stars <div> [677,379 73x13] gap 2px | flex-row flex-start/center
+              Stars <svg> [677,379 13x13] 
+            Rating <p> [756,377 34x17]  || "4.7/5" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(23, 63, 92) al start
+            Text <div> [686,400 104x17] gap 4px | flex-row flex-end/flex-start
+            Text <p> [686,400 104x17]  || "100.000+ users" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al right
+        Image <div> [20,433 770x481] gap 8px | flex-col center/center | r 16px
+          Hero-image <div> [20,433 770x481] 
+            Default <div> [20,433 770x481] gap 8px | flex-row center/center
+              Image <div> [20,433 770x481] gap 8px | pos absolute
+              Image <img> [20,433 770x481]  src sjhAyZGLqVpb930PxW3OS5eJHE.jpg alt=''
+  Pain point <section> [0,914 810x3888] pad 0 20 0 20 | flex-col center/center
+    Sticky section <div> [20,914 770x1080] flex-row center/center | pos sticky
+      White <div> [0,914 810x1080] bg rgb(255, 251, 247)
+      Black <div> [184,1410 443x88] gap 10px | flex-col center/center | maxw 100%
+        Social media feels harder than it should be <div> [184,1410 443x88] flex-col flex-start/
+        Social media feels harder than it should be <h2> [184,1410 443x88]  || "Healthcare can feel overwhelming" Bricolage Grotesque 40px/44px ls -2px var  c rgb(23, 63, 92) al center
+    Scroll <div> [20,1994 770x2700] flex-col center/center | maxw 1280px
+      Card 1 <div> [55,2828 700x324] pad 40 40 40 40 | gap 20px | flex-row center/center | r 14px | bg rgb(191, 214, 230) | pos sticky | top 200px | maxw 690px | tf matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)
+        Text <div> [98,2930 299x131] gap 10px | flex-col center/flex-start
+        Text <svg> [98,2939 21x21] 
+        Text <h4> [99,2960 296x41]  || "Details fade" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(42, 98, 137) al start
+        Text <p> [101,3000 297x61]  || "You walk out of the appointment and think: "Wait, " Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al start
+      Card 1 <img> [411,2869 302x230] r 12px src rlcg9pQr8Z1IUJex2TR0YvPejLQ.jp alt=''
+      Card 2 <div> [55,3128 700x324] pad 40 40 40 40 | gap 20px | flex-row center/center | r 14px | bg rgb(122, 168, 201) | pos sticky | top 220px | maxw 690px | tf matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)
+        Text <div> [97,3202 300x165] gap 10px | flex-col center/flex-start
+        Text <svg> [102,3202 21x21] 
+        Text <h4> [101,3232 296x41]  || "It's hard to keep up" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(255, 251, 247) al start
+        Text <p> [97,3273 298x94]  || "Some health journeys are straightforward. Many are" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al start
+      Card 2 <img> [411,3180 302x230] r 12px src M5TtYJGbNYknRnCd4WkEXohBc.jpg? alt=''
+      Card 3 <div> [55,3428 700x324] pad 40 40 40 40 | gap 20px | flex-row center/center | r 14px | bg rgb(42, 98, 137) | pos sticky | top 300px | maxw 690px | tf matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)
+        Text <div> [98,3521 300x148] gap 10px | flex-col center/flex-start
+        Text <svg> [98,3531 21x21] 
+        Text <h4> [99,3551 296x41]  || "Everyone wants to know" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(255, 251, 247) al start
+        Text <p> [100,3592 297x77]  || ""How did it go?" Your partner asks. Then your moth" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al start
+      Card 3 <img> [411,3469 302x230] r 12px src tQHKtVNWc7341jCkk6Pu0NnWC0g.jp alt=''
+      1 <div> [20,3024 770x1670] bg rgb(255, 255, 255) | pos absolute | top 1030px | op 0
+      2 <div> [20,3222 770x1472] bg rgb(255, 255, 255) | pos absolute | top 1228px | op 0
+      3 <div> [20,3514 770x1180] bg rgb(255, 255, 255) | pos absolute | top 1520px | op 0
+      Spacer <div> [20,3740 770x108] op 0
+    Spacer <div> [20,4694 770x108] op 0
+  Pain point <section> [0,4802 810x42] pad 0 20 0 20 | flex-col center/center
+    Spacer <div> [20,4802 770x42] op 0
+  Feature walkthrough <section> [0,4844 810x1120] pad 20 20 20 20 | flex-col center/center | maxw 1600px
+    HowItWorks <section> [20,4864 770x1080] pad 80 0 80 0 | gap 10px | flex-row center/center | r 20px 40px 0px 0px
+      Content <div> [59,4944 693x920] gap 40px | flex-col center/center | maxw 1080px
+        Header <div> [59,4944 693x134] gap 24px | flex-col center/center | maxw 1200px
+        Header <h2> [232,4944 346x53]  || "This is Ditto" Bricolage Grotesque 48px/52.8px ls -2.4px var  c rgb(13, 22, 79) al center
+        Header <p> [232,5020 346x58]  || "Everything from your doctor's visit, captured, cla" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(23, 63, 92) al center
+        Mobile /1 <div> [59,5118 693x746] flex-col flex-start/flex-start
+          Features <div> [59,5668 693x196] pad 0 12 0 12 | gap 10px | flex-row flex-start/center
+            FeatureList <div> [71,5668 976x196] pad 24 0 24 0 | gap 8px | flex-row center/center
+              Feature1 <div> [71,5680 320x172] 
+                Desktop /Active <div> [71,5680 320x172] pad 20 20 20 20 | gap 24px | flex-col flex-start/center | r 16px | bg rgb(253, 253, 253)
+                  Text <div> [91,5700 280x132] gap 8px | flex-col center/flex-start
+                  Text <h3> [91,5700 280x47]  || "Summarise any medical appointment" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+                  Text <p> [91,5755 280x77]  || "Every word from your consultation, waiting for you" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(23, 63, 92) al left
+              Desktop /Active <div> [399,5680 320x172] pad 20 20 20 20 | gap 24px | flex-col flex-start/center | r 16px | bg rgb(253, 253, 253)
+                Text <div> [419,5700 280x108] gap 8px | flex-col center/flex-start
+                Text <h3> [419,5700 280x23]  || "Prepare for what's next" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+                Text <p> [419,5732 280x77]  || "Ditto suggests questions for your next visit based" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(23, 63, 92) al left
+              Desktop /Active <div> [727,5692 320x148] pad 20 20 20 20 | gap 24px | flex-col flex-start/center | r 16px | bg rgb(253, 253, 253)
+                Text <div> [747,5712 280x127] gap 8px | flex-col center/flex-start
+                Text <h3> [747,5712 280x23]  || "Invite those who matter" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+                Text <p> [747,5744 280x96]  || "Invite the people who matter. They see your summar" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(23, 63, 92) al left
+          Features <section> [59,5118 693x550] gap 12px | flex-col center/center
+            1 <div> [215,5125 337x591] pos absolute | top 302.5px | tf matrix(0.994522, -0.104528, 0.104528, 0.994522, -140, -282.328)
+              Variant 1 <figure> [215,5125 337x591] 
+                AppImage <div> [230,5136 308x569] r 24px | pos absolute | top 9px | tf matrix(1, 0, 0, 1, -126, 0)
+                AppImage <img> [230,5136 308x569] r 24px src 2bMxfwfTnkFwmKEtUjxNTbUBCc.png alt=''
+                iPhone <div> [217,5125 333x588] pos absolute
+                iPhone <img> [217,5125 333x588]  src YlYIbfFEujexwgWABDzpsRlY.webp? alt=''
+            2 <div> [326,5142 365x602] pos absolute | top 324.5px | tf matrix(0.987688, 0.156434, -0.156434, 0.987688, -140, -282.328)
+              Variant 1 <figure> [326,5142 365x602] 
+                AppImage <div> [342,5153 334x578] r 24px | pos absolute | top 9px | tf matrix(1, 0, 0, 1, -126, 0)
+                AppImage <img> [342,5153 334x578] r 24px src BpFObPs7acG37bb9CJSTkru17k0.pn alt=''
+                iPhone <div> [329,5142 361x598] pos absolute
+                iPhone <img> [329,5142 361x598]  src YlYIbfFEujexwgWABDzpsRlY.webp? alt=''
+            3 <div> [379,5186 441x624] pos absolute | top 379.5px | tf matrix(0.951057, 0.309017, -0.309017, 0.951057, -140, -282.328)
+              Variant 1 <figure> [379,5186 441x624] 
+                AppImage <div> [395,5199 408x597] r 24px | pos absolute | top 9px | tf matrix(1, 0, 0, 1, -126, 0)
+                AppImage <img> [395,5199 408x597] r 24px src 63qDqsGYW1xSNL6TxZBpcaF88.png? alt=''
+                iPhone <div> [381,5186 436x620] pos absolute
+                iPhone <img> [381,5186 436x620]  src YlYIbfFEujexwgWABDzpsRlY.webp? alt=''
+          Arrows <div> [376,5628 100x44] gap 12px | flex-row center/center | pos absolute | top 510px | tf matrix(1, 0, 0, 1, -50, 0)
+            Variant 1 <div> [432,5628 44x44] pad 10 10 10 10 | gap 10px | flex-row center/center | r 414px | bg rgb(23, 63, 92)
+              Chevron <div> [442,5638 24x24] 
+              Chevron <svg> [442,5638 24x24] 
+  Testimonials <section> [0,5964 810x713] gap 8px | flex-col center/center | maxw 1600px
+    Container <div> [0,5964 810x713] pad 80 20 80 20 | gap 16px | flex-col flex-start/center | bg rgb(255, 251, 247)
+      Content <div> [20,6044 770x553] pad 40 40 40 40 | gap 40px | flex-col center/center | r 16px | bg rgb(23, 63, 92)
+        Headline <div> [60,6084 690x53] gap 40px | flex-col center/center
+          Title <div> [60,6084 690x53] gap 24px | flex-col center/flex-start
+          Title <h2> [60,6084 690x53]  || "Success stories" Bricolage Grotesque 48px/52.8px ls -2.4px var  c rgb(255, 251, 247) al start
+        Reviews <div> [60,6177 690x380] gap 31px | flex-col center/center
+          Tablet <div> [60,6177 690x380] gap 10px | flex-row center/center
+            4 <div> [-984,6177 342x380] 
+              Video review <div> [-984,6177 342x380] pad 24 24 24 24 | flex-col space-between/flex-start | r 16px | bg rgb(42, 98, 137)
+              Video review <video> [-984,6177 342x380] 
+                Info <div> [-960,6495 294x38] gap 12px | flex-row center/center
+                  Name <div> [-960,6495 294x19] gap 12px | flex-row flex-start/center
+                  Name <p> [-960,6495 35x19]  || "Joke" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <p> [-960,6516 294x17]  || "Uses Ditto at the Physiotherapist" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(250, 242, 235) al start
+            5 <div> [-636,6177 342x380] 
+              Default <div> [-636,6177 342x380] pad 24 24 24 24 | flex-col space-between/flex-start | r 16px | bg rgb(42, 98, 137)
+                Review - Header <div> [-612,6201 294x206] gap 10px | flex-col flex-start/flex-start
+                Review - Header <h4> [-612,6201 294x62]  || "Medical Conversation? Use Ditto!" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(255, 251, 247) al start
+                Review - Header <p> [-612,6272 294x134]  || "I  have been using the Ditto app for several month" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <div> [-612,6446 294x87] gap 12px | flex-row center/center
+                  Photo <div> [-612,6446 87x87] r 23px
+                  Photo <img> [-612,6446 87x87] r 23px src VEfMBhxwf3O02sCSa2K8LQsoMmQ.pn alt=''
+                  Name <div> [-513,6470 195x19] gap 12px | flex-row flex-start/center
+                  Name <p> [-513,6470 40x19]  || "Freek" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <p> [-513,6492 195x17]  || "App Store" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(220, 234, 244) al start
+            6 <div> [-288,6177 342x380] 
+              Default <div> [-288,6177 342x380] pad 24 24 24 24 | flex-col space-between/flex-start | r 16px | bg rgb(42, 98, 137)
+                Review - Header <div> [-264,6201 294x156] gap 10px | flex-col flex-start/flex-start
+                Review - Header <h4> [-264,6201 294x31]  || "Convenient for the Family!" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(255, 251, 247) al start
+                Review - Header <p> [-264,6242 294x115]  || "Amazing app, so clear for loved ones and summarizi" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <div> [-264,6446 294x87] gap 12px | flex-row center/center
+                  Photo <div> [-264,6446 87x87] r 23px
+                  Photo <img> [-264,6446 87x87] r 23px src bZWPecLLyopMW7ecA0WzyplZY.png? alt=''
+                  Name <div> [-165,6470 195x19] gap 12px | flex-row flex-start/center
+                  Name <p> [-165,6470 48x19]  || "Michel" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <p> [-165,6492 195x17]  || "Google Play" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(220, 234, 244) al start
+            1 <div> [60,6177 342x380] 
+              Video review <div> [60,6177 342x380] pad 24 24 24 24 | flex-col space-between/flex-start | r 16px | bg rgb(42, 98, 137)
+              Video review <video> [60,6177 342x380] 
+                Info <div> [84,6495 294x38] gap 12px | flex-row center/center
+                  Name <div> [84,6495 294x19] gap 12px | flex-row flex-start/center
+                  Name <p> [84,6495 62x19]  || "Henriëte" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <p> [84,6516 294x17]  || "Uses Ditto for her complex allergies" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(250, 242, 235) al start
+            3 <div> [408,6177 342x380] 
+              Default <div> [408,6177 342x380] pad 24 24 24 24 | flex-col space-between/flex-start | r 16px | bg rgb(42, 98, 137)
+                Review - Header <div> [432,6201 294x194] gap 10px | flex-col flex-start/flex-start
+                Review - Header <h4> [432,6201 294x31]  || "A Must-Have for Every Parent!" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(255, 251, 247) al start
+                Review - Header <p> [432,6242 294x154]  || "During my pregnancy, I used Ditto to keep track of" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <div> [432,6446 294x87] gap 12px | flex-row center/center
+                  Photo <div> [432,6446 87x87] r 23px
+                  Photo <img> [432,6446 87x87] r 23px src bZWPecLLyopMW7ecA0WzyplZY.png? alt=''
+                  Name <div> [531,6470 195x19] gap 12px | flex-row flex-start/center
+                  Name <p> [531,6470 24x19]  || "Jet" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <p> [531,6492 195x17]  || "Google Play" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(220, 234, 244) al start
+            2 <div> [756,6177 342x380] 
+              Default <div> [756,6177 342x380] pad 24 24 24 24 | flex-col space-between/flex-start | r 16px | bg rgb(42, 98, 137)
+                Review - Header <div> [780,6201 294x187] gap 10px | flex-col flex-start/flex-start
+                Review - Header <h4> [780,6201 294x62]  || "This app inventor deserves an award" Bricolage Grotesque 22px/30.8px ls -0.88px var  c rgb(255, 251, 247) al start
+                Review - Header <p> [780,6272 294x115]  || ""This app is brilliant. Super clear. It gives an e" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <div> [780,6446 294x87] gap 12px | flex-row center/center
+                  Photo <div> [780,6446 87x87] r 23px
+                  Photo <img> [780,6446 87x87] r 23px src VEfMBhxwf3O02sCSa2K8LQsoMmQ.pn alt=''
+                  Name <div> [879,6470 195x19] gap 12px | flex-row flex-start/center
+                  Name <p> [879,6470 21x19]  || "Els" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al left
+                Info <p> [879,6492 195x17]  || "App Store" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(220, 234, 244) al start
+          Tablet <img> [670,6129 34x34]  src 6tTbkXggWgQCAJ4DO2QEdXXmgM.svg alt='Back Arrow'
+  Our partners <div> [0,6677 810x444] pad 80 20 80 20 | gap 40px | flex-col flex-start/center | maxw 1600px
+    Content <div> [20,6757 770x86] gap 60px | flex-col center/flex-start
+      Headline <div> [20,6757 770x86] flex-row space-between/center
+        Title <div> [20,6757 571x86] gap 12px | flex-col center/flex-start
+        Title <h3> [20,6757 571x35]  || "Our partners in the medical field" Bricolage Grotesque 32px/35.2px ls -1.6px var  c rgb(13, 22, 79) al start
+        Title <p> [20,6804 520x38]  || "We work closely together with healthcare organisat" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+        Button <div> [591,6775 199x50] pad 8 0 0 0 | gap 9px | flex-row flex-start/center
+          Black <a> [591,6783 199x42] pad 8 20 8 20 | gap 6px | flex-row center/center | r 30px | bg rgb(13, 22, 79) || "Ditto for professionals
+Ditto for professionals" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+            Text <div> [611,6795 127x17] gap 8px | flex-col center/center
+            Text <p> [611,6795 127x17]  || "Ditto for professionals" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+            Icon <div> [744,6791 26x26] pad 6 6 6 6 | gap 8px | flex-col center/center | r 16px | bg rgb(191, 214, 230)
+            Icon <svg> [744,6776 26x14] 
+            Icon <svg> [750,6797 14x14] 
+    Logos <div> [20,6883 770x159] pad 6 6 6 6 | gap 6px | grid 146.797px 146.797px 146.797px 146.797px 146.812px | r 16px | bg rgb(220, 234, 244)
+      Large <a> [26,6889 147x147] gap 6px | flex-col center/center | r 11px | bg rgb(255, 251, 247)
+      Large <img> [59,6922 80x80]  src iyAKqmVwqIrttRzWaiaysIOO32Q.sv alt=''
+  Why Ditto works <section> [0,7121 810x1000] gap 8px | flex-col center/center | maxw 1600px
+    Container <div> [0,7121 810x1000] pad 100 20 100 20 | gap 20px | flex-col flex-start/center | bg rgb(255, 251, 247)
+      Headline <div> [20,7221 770x99] gap 40px | flex-col center/center
+        Title <div> [20,7221 770x99] gap 16px | flex-col center/flex-start
+          Large black - H2 <div> [20,7221 770x62] gap 8px | flex-row center/flex-start
+          Large black - H2 <h2> [20,7221 770x62]  || "Why Ditto works" Bricolage Grotesque 56px/61.6px ls -2.8px var  c rgb(13, 22, 79) al start
+        Title <p> [20,7299 520x22]  || "Built for you, with care." Uncut Sans Variable Variable 18px/21.6px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+      Why Ditto works <div> [20,7341 770x1447] gap 6px | grid 382px 382px
+        4 <div> [408,7341 382x720] flex-col space-between/center | r 16px | bg rgb(10, 10, 10)
+          BG <div> [408,7341 382x720] r 16px | op 0.9
+          BG <img> [408,7341 382x720] r 16px src k7Gtp7PABw7GFFLH8UDh9slMqpc.pn alt=''
+        3 <div> [20,7341 382x720] pad 6 6 6 6 | gap 6px | flex-col center/center | r 16px | bg rgb(235, 235, 235)
+          Variant 1 <div> [26,7347 370x182] pad 24 24 24 24 | gap 12px | flex-col center/flex-start | r 12px | bg rgb(255, 251, 247)
+          Variant 1 <svg> [50,7371 22x22] 
+            Title <div> [50,7405 322x100] flex-col space-between/center
+            Title <h3> [50,7405 322x23]  || "Everything in one place" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+            Title <p> [50,7428 322x77]  || "Your GP, your specialist, your midwife. All in one" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+            Title <h3> [50,7593 322x23]  || "Sharing is caring" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+            Title <p> [50,7616 322x77]  || "Your loved ones can receive and share care updates" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+            Title <h3> [50,7781 322x23]  || "Private by design" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+            Title <p> [50,7804 322x77]  || "Your data lives on your device. When Ditto process" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+          Variant 1 <div> [26,7911 370x144] pad 24 24 24 24 | gap 12px | flex-col center/flex-start | r 12px | bg rgb(255, 251, 247)
+            Title <div> [50,7969 322x62] flex-col space-between/center
+            Title <h3> [50,7969 322x23]  || "Built for you" Bricolage Grotesque 18px/23.4px ls -0.72px var  c rgb(13, 22, 79) al left
+            Title <p> [50,7993 322x38]  || "Patient portals are built for hospitals. Ditto is " Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+  Cta Section  <div> [0,8121 810x1131] pad 80 20 40 20 | gap 20px | flex-row center/center | maxw 1600px
+    Tablet <div> [20,8201 770x1011] pad 0 0 40 0 | gap 20px | flex-row center/center
+      Container <div> [20,8201 770x971] pad 80 40 0 40 | gap 40px | flex-col center/center | r 16px | bg rgb(23, 63, 92)
+        Background Color <div> [20,8201 770x971] bg rgb(23, 63, 92) | pos absolute
+        Background Shape Image <div> [-75,8707 963x990] pos absolute | top 506px | op 0.8
+        Background Shape Image <img> [-75,8707 963x990]  src NgRBnNbQESh21gU58OOjeueuU.png? alt='Shape Image '
+        Contact Content  <div> [60,8281 690x891] gap 32px | flex-col flex-start/center
+          Title and download button <div> [60,8281 690x252] gap 40px | flex-col center/center
+            Section TItle  <div> [60,8281 690x160] gap 16px | flex-col center/center
+              Take the next step in your career! <div> [60,8281 690x106] flex-col flex-start/
+              Take the next step in your career! <h2> [60,8281 690x106]  || "Record your first appointment tomorrow" Bricolage Grotesque 48px/52.8px ls -2.4px var  c rgb(255, 251, 247) al center
+              Find the right job faster with AI-powered matching, real-time updates, and powerful insights. <div> [173,8403 465x38] flex-col flex-start/ | maxw 465px
+              Find the right job faster with AI-powered matching, real-time updates, and powerful insights. <p> [173,8403 465x38]  || "Download Ditto, create an account in under a minut" Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(255, 251, 247) al center
+            Buttons <div> [152,8481 506x52] gap 16px | flex-row center/center
+              Apple <a> [217,8481 180x52] pad 6 10 6 10 | gap 10px | flex-row center/center | r 308px | bg rgb(191, 214, 230)
+                app_store_5f767c31 <div> [257,8487 100x40] 
+                app_store_5f767c31 <svg> [257,8487 100x40] 
+              Google <a> [413,8481 180x52] pad 6 10 6 10 | gap 10px | flex-row center/center | r 308px | bg rgb(191, 214, 230)
+                play_store_b3d2b74a <div> [445,8487 116x40] 
+                play_store_b3d2b74a <svg> [445,8487 116x40] 
+          Phone <figure> [228,8565 354x331] 
+            AppImage <div> [246,8574 319x690] r 48px | pos absolute | top 9px | tf matrix(1, 0, 0, 1, -159.297, 0)
+            AppImage <img> [246,8574 319x690] r 48px src dUb4NW0BMIkpQlu94j5GdzkXPM.png alt='Weather app image'
+            iPhone <div> [230,8565 350x713] pos absolute
+            iPhone <img> [230,8565 350x713]  src YlYIbfFEujexwgWABDzpsRlY.webp? alt=''
+  FAQs <section> [0,9252 810x764] gap 8px | flex-col center/center | maxw 1600px
+    Container <div> [0,9252 810x764] pad 100 20 100 20 | gap 40px | flex-col flex-start/center | bg rgb(255, 251, 247)
+      Content <div> [20,9352 770x564] gap 80px | flex-row center/flex-start
+        Headline <div> [20,9352 339x141] gap 24px | flex-col center/flex-start
+          Title <div> [20,9352 339x141] gap 16px | flex-col center/flex-start
+          Title <h2> [20,9352 339x106]  || "More about Ditto" Bricolage Grotesque 48px/52.8px ls -2.4px var  c rgb(13, 22, 79) al start
+          Title <p> [20,9474 339x19]  || "Answers to common questions about Ditto." Uncut Sans Variable Variable 16px/19.2px ls 0 var "ital" 0, "wght" 500 c rgb(42, 98, 137) al left
+        Process points <div> [439,9352 351x564] pad 6 6 6 6 | gap 6px | flex-col center/center | r 16px | bg rgb(220, 234, 244)
+          Tablet <div> [445,9358 339x552] gap 6px | flex-col center/flex-start
+          Tablet <img> [740,9396 20x20]  src TlGVH6PyyjkaXLmZRxMwsvSk.svg alt='icon'
+          Tablet <p> [469,9453 291x134]  || "During an appointment, you ask whether you can rec" Inter 16px/22.4px ls -0.48px var  c rgb(42, 98, 137) al left
+          Tablet <p> [469,9531 291x112]  || "Use Ditto before, during, and after appointments, " Inter 16px/22.4px ls -0.48px var  c rgb(42, 98, 137) al left
+          Tablet <p> [469,9631 291x112]  || "You can securely share your summaries via Ditto Lo" Inter 16px/22.4px ls -0.48px var  c rgb(42, 98, 137) al left
+          Tablet <p> [469,9732 291x67]  || "Your data is stored securely and only on your devi" Inter 16px/22.4px ls -0.48px var  c rgb(42, 98, 137) al left
+          Tablet <p> [469,9810 291x45]  || "Yes. Ditto is currently available for free to down" Inter 16px/22.4px ls -0.48px var  c rgb(42, 98, 137) al left
+          Tablet <p> [469,9910 291x90]  || "Yes. Ditto translates medical documents and explan" Inter 16px/22.4px ls -0.48px var  c rgb(42, 98, 137) al left
+Tablet <footer> [0,10016 810x640] gap 8px | flex-col flex-start/center | bg rgb(13, 22, 79)
+  Container <div> [0,10016 810x640] pad 80 20 30 20 | gap 80px | flex-col center/center | maxw 1600px
+    Title <div> [20,10096 770x134] gap 16px | flex-col center/flex-start
+    Title <svg> [20,10096 770x134] flex-col flex-start/
+    Title <p> [20,10096 770x134]  || "Ditto Care(s)" Uncut Sans Variable Variable 211.611px/190.45px ls -12.6966px var "ital" 0, "wght" 500 c rgb(255, 251, 247) al start
+    Contact <div> [20,10310 770x145] gap 80px | flex-col flex-end/flex-start
+      Links <div> [20,10310 770x145] gap 24px | flex-col center/flex-start
+      Links <p> [20,10310 520x65]  || "Whether you’re navigating an appointment, supporti" Uncut Sans Variable Variable 18px/21.6px ls 0 var "ital" 0, "wght" 500 c rgb(191, 214, 230) al left
+        Contact <div> [20,10399 770x56] gap 6px | flex-col flex-start/flex-start
+          24 <a> [20,10399 207x31] gap 6px | flex-row center/flex-start || "support@ditto.care
+support@ditto.care" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+            Text <div> [20,10399 207x31] gap 8px | flex-col center/center
+            Text <p> [20,10399 207x31]  || "support@ditto.care" Uncut Sans Variable Variable 24px/31.2px ls -0.96px var  c rgb(255, 251, 247) al left
+          16 <a> [20,10436 119x19] gap 6px | flex-row center/flex-start || "+31 85 115 5421
++31 85 115 5421" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+            Text <div> [20,10436 119x19] gap 8px | flex-col center/center
+            Text <p> [20,10436 119x19]  || "+31 85 115 5421" Uncut Sans Variable Variable 16px/19.2px ls -0.64px var  c rgb(255, 251, 247) al left
+    Links <div> [20,10535 770x91] gap 16px | flex-row center/flex-end
+      Pages <div> [20,10535 201x91] gap 8px | flex-col flex-end/flex-start
+        14 <a> [20,10535 76x17] gap 6px | flex-row center/flex-start || "Professionals
+          Text <div> [20,10535 76x17] gap 8px | flex-col center/center
+          Text <p> [20,10535 76x17]  || "Professionals" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [20,10560 32x17] gap 6px | flex-row center/flex-start || "Press
+Press" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [20,10560 32x17] gap 8px | flex-col center/center
+          Text <p> [20,10560 32x17]  || "Press" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [20,10585 47x17] gap 6px | flex-row center/flex-start || "Contact
+Contact" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [20,10585 47x17] gap 8px | flex-col center/center
+          Text <p> [20,10585 47x17]  || "Contact" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [20,10610 41x17] gap 6px | flex-row center/flex-start || "Join us
+Join us" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [20,10610 41x17] gap 8px | flex-col center/center
+          Text <p> [20,10610 41x17]  || "Join us" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+      Pages <div> [237,10560 202x66] gap 8px | flex-col center/flex-start
+        14 <a> [237,10560 52x17] gap 6px | flex-row center/flex-start || "EU AI Act
+EU AI Act" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [237,10560 52x17] gap 8px | flex-col center/center
+          Text <p> [237,10560 52x17]  || "EU AI Act" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [237,10585 113x17] gap 6px | flex-row center/flex-start || "Terms & Conditions
+Terms & Conditions" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [237,10585 113x17] gap 8px | flex-col center/center
+          Text <p> [237,10585 113x17]  || "Terms & Conditions" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [237,10610 77x17] gap 6px | flex-row center/flex-start || "Privacy Policy
+Privacy Policy" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [237,10610 77x17] gap 8px | flex-col center/center
+          Text <p> [237,10610 77x17]  || "Privacy Policy" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+      Socials <div> [455,10560 202x66] gap 8px | flex-col flex-end/flex-start
+        14 <a> [455,10560 33x17] gap 6px | flex-row center/flex-start || "News
+          Text <div> [455,10560 33x17] gap 8px | flex-col center/center
+          Text <p> [455,10560 33x17]  || "News" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [455,10585 58x17] gap 6px | flex-row center/flex-start || "Instagram
+Instagram" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [455,10585 58x17] gap 8px | flex-col center/center
+          Text <p> [455,10585 58x17]  || "Instagram" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+        14 <a> [455,10610 47x17] gap 6px | flex-row center/flex-start || "LinkedIn
+LinkedIn" sans-serif 12px/None ls 0 var  c rgb(0, 0, 238) al start
+          Text <div> [455,10610 47x17] gap 8px | flex-col center/center
+          Text <p> [455,10610 47x17]  || "LinkedIn" Uncut Sans Variable Variable 14px/16.8px ls -0.56px var "ital" 0, "wght" 400 c rgb(255, 251, 247) al left
+      Socials <div> [672,10587 118x40] gap 6px | flex-col flex-end/flex-end
+        Designed By <div> [672,10587 118x17] gap 4px | flex-col flex-start/flex-end
+      Socials <p> [672,10610 118x17]  || "© 2026 Ditto Care" Uncut Sans Variable Variable 14px/16.8px ls 0 var "ital" 0, "wght" 500 c rgb(220, 234, 244) al start

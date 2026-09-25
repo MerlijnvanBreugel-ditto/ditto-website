@@ -1,0 +1,1123 @@
+{
+ "nav": [
+  {
+   "y": 0,
+   "nav": {
+    "top": 0,
+    "left": 20,
+    "w": 770,
+    "h": 45,
+    "transform": "none",
+    "bg": "rgb(220, 234, 244)",
+    "opacity": "1",
+    "position": "relative"
+   }
+  },
+  {
+   "y": 300,
+   "nav": {
+    "top": 0,
+    "left": 20,
+    "w": 770,
+    "h": 45,
+    "transform": "none",
+    "bg": "rgb(220, 234, 244)",
+    "opacity": "1",
+    "position": "relative"
+   }
+  },
+  {
+   "y": 1200,
+   "nav": {
+    "top": 0,
+    "left": 20,
+    "w": 770,
+    "h": 45,
+    "transform": "none",
+    "bg": "rgb(220, 234, 244)",
+    "opacity": "1",
+    "position": "relative"
+   }
+  }
+ ],
+ "painPointTop": 914,
+ "pain": [
+  {
+   "y": -166,
+   "rel": -1080,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 1410
+   },
+   "cards": [
+    {
+     "top": 2828,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 3128,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 3428,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 14,
+   "rel": -900,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 1396
+   },
+   "cards": [
+    {
+     "top": 2814,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 3114,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 3414,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 194,
+   "rel": -720,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 1216
+   },
+   "cards": [
+    {
+     "top": 2634,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2934,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 3234,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 374,
+   "rel": -540,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 1036
+   },
+   "cards": [
+    {
+     "top": 2454,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2754,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 3054,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 554,
+   "rel": -360,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 856
+   },
+   "cards": [
+    {
+     "top": 2274,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2574,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2874,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 734,
+   "rel": -180,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 676
+   },
+   "cards": [
+    {
+     "top": 2094,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2394,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2694,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 914,
+   "rel": 0,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 1914,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2214,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2514,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 1094,
+   "rel": 180,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 1734,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2034,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2334,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 1274,
+   "rel": 360,
+   "white": {
+    "op": "1",
+    "bg": "rgb(255, 251, 247)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(23, 63, 92)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 1554,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1854,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 2154,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 1454,
+   "rel": 540,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 1374,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1674,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1974,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 1634,
+   "rel": 720,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 1194,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1494,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1794,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 1814,
+   "rel": 900,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 1014,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1314,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1614,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 1994,
+   "rel": 1080,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 834,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1134,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1434,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 2174,
+   "rel": 1260,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 654,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 954,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1254,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 2354,
+   "rel": 1440,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 474,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 774,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 1074,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 2534,
+   "rel": 1620,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 294,
+     "transform": "matrix(0.996339, -0.0347929, 0.0347929, 0.996339, 0, 0)"
+    },
+    {
+     "top": 594,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 894,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 2714,
+   "rel": 1800,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 190,
+     "transform": "matrix(0.985567, -0.0344168, 0.0344168, 0.985567, 0, 0)"
+    },
+    {
+     "top": 414,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 714,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 2894,
+   "rel": 1980,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 192,
+     "transform": "matrix(0.974795, -0.0340406, 0.0340406, 0.974795, 0, 0)"
+    },
+    {
+     "top": 234,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 534,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 3074,
+   "rel": 2160,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 194,
+     "transform": "matrix(0.964023, -0.0336644, 0.0336644, 0.964023, 0, 0)"
+    },
+    {
+     "top": 208,
+     "transform": "matrix(0.999391, 0.0348995, -0.0348995, 0.999391, 0, 0)"
+    },
+    {
+     "top": 354,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 3254,
+   "rel": 2340,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 196,
+     "transform": "matrix(0.953251, -0.0332883, 0.0332883, 0.953251, 0, 0)"
+    },
+    {
+     "top": 208,
+     "transform": "matrix(0.99715, 0.0348213, -0.0348213, 0.99715, 0, 0)"
+    },
+    {
+     "top": 288,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 3434,
+   "rel": 2520,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 197,
+     "transform": "matrix(0.942479, -0.0329121, 0.0329121, 0.942479, 0, 0)"
+    },
+    {
+     "top": 210,
+     "transform": "matrix(0.98493, 0.0343945, -0.0343945, 0.98493, 0, 0)"
+    },
+    {
+     "top": 288,
+     "transform": "matrix(0.999391, -0.0348995, 0.0348995, 0.999391, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 3614,
+   "rel": 2700,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 496
+   },
+   "cards": [
+    {
+     "top": 199,
+     "transform": "matrix(0.931708, -0.0325359, 0.0325359, 0.931708, 0, 0)"
+    },
+    {
+     "top": 212,
+     "transform": "matrix(0.972709, 0.0339677, -0.0339677, 0.972709, 0, 0)"
+    },
+    {
+     "top": 289,
+     "transform": "matrix(0.990837, -0.0346008, 0.0346008, 0.990837, 0, 0)"
+    }
+   ]
+  },
+  {
+   "y": 3794,
+   "rel": 2880,
+   "white": {
+    "op": "1",
+    "bg": "rgba(0, 0, 0, 0)"
+   },
+   "black": {
+    "op": "1",
+    "bg": "rgb(13, 22, 79)",
+    "top": 6
+   },
+   "title": {
+    "color": "rgb(255, 251, 247)",
+    "top": 424
+   },
+   "cards": [
+    {
+     "top": 201,
+     "transform": "matrix(0.920936, -0.0321598, 0.0321598, 0.920936, 0, 0)"
+    },
+    {
+     "top": 214,
+     "transform": "matrix(0.960488, 0.033541, -0.033541, 0.960488, 0, 0)"
+    },
+    {
+     "top": 292,
+     "transform": "matrix(0.975592, -0.0340684, 0.0340684, 0.975592, 0, 0)"
+    }
+   ]
+  }
+ ],
+ "featureTop": 4864,
+ "featureArrows": [
+  [
+   {
+    "x": 453.78125,
+    "y": 846.09375,
+    "name": "Variant 1"
+   },
+   {
+    "x": 453.78125,
+    "y": 846.09375,
+    "name": "Chevron"
+   },
+   {
+    "x": 397.78125,
+    "y": 846.09375,
+    "name": "Variant 1"
+   },
+   {
+    "x": 397.78125,
+    "y": 846.09375,
+    "name": "Chevron"
+   }
+  ]
+ ],
+ "featureItems": [
+  {
+   "x": 110.5,
+   "y": 919.6875,
+   "t": "Summarise any medical appointment"
+  },
+  {
+   "x": 438.5,
+   "y": 907.796875,
+   "t": "Prepare for what's next"
+  },
+  {
+   "x": 766.5,
+   "y": 919.796875,
+   "t": "Invite those who matter"
+  }
+ ],
+ "carouselButtons": [
+  {
+   "x": 687,
+   "y": 181.890625,
+   "label": "Previous"
+  },
+  {
+   "x": 687,
+   "y": 181.890625,
+   "label": "Back Arrow"
+  },
+  {
+   "x": 733,
+   "y": 181.890625,
+   "label": "Next"
+  },
+  {
+   "x": 733,
+   "y": 181.890625,
+   "label": "Next Arrow"
+  }
+ ],
+ "marquee": {
+  "m1": {
+   "transform": "matrix(1, 0, 0, 1, -260.827, 0)",
+   "w": 2432
+  },
+  "m2": {
+   "transform": "matrix(1, 0, 0, 1, -310.824, 0)",
+   "w": 2432
+  }
+ },
+ "footer": [
+  {
+   "footer": {
+    "top": 1736,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 1816,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -8280,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 8280
+  },
+  {
+   "footer": {
+    "top": 1466,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 1546,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -8550,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 8550
+  },
+  {
+   "footer": {
+    "top": 1196,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 1276,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -8820,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 8820
+  },
+  {
+   "footer": {
+    "top": 926,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 1006,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -9090,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 9090
+  },
+  {
+   "footer": {
+    "top": 656,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 736,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -9360,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 9360
+  },
+  {
+   "footer": {
+    "top": 440,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 520,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -9576,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 9576
+  },
+  {
+   "footer": {
+    "top": 440,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 520,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -9576,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 9576
+  },
+  {
+   "footer": {
+    "top": 440,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 520,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -9576,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 9576
+  },
+  {
+   "footer": {
+    "top": 440,
+    "h": 640,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "big": {
+    "top": 520,
+    "h": 134,
+    "transform": "none",
+    "position": "static",
+    "z": "auto"
+   },
+   "main": {
+    "top": -9576,
+    "h": 10016,
+    "transform": "none",
+    "position": "relative",
+    "z": "auto"
+   },
+   "anc": [
+    {
+     "name": null,
+     "t": "matrix(1, 0, 0, 1, 0, 0)",
+     "p": "static",
+     "top": "auto"
+    }
+   ],
+   "sy": 9576
+  }
+ ]
+}
