@@ -1,6 +1,6 @@
 """Print the live CSS rules for a Framer layer and its descendants.
 
-Usage: python3 css-rules.py <desktop|phone> "<data-framer-name>" [depth] [nth]
+Usage: python3 css-rules.py <desktop|tablet|phone> "<data-framer-name>" [depth] [nth]
 Reads the rendered DOM saved by snapshot.mjs (.cache/live/<bp>.html). Framer puts the
 breakpoint overrides in the same stylesheet, so a layer can have several rules.
 """
@@ -52,4 +52,4 @@ for level, tag, fname, classes in w.out:
             continue
         for r in rules:
             if re.search(r"\." + re.escape(c) + r"(?![\w-])", r.split("{")[0]):
-                print("  " * level + "   " + r[:300])
+                print("  " * level + "   " + r[:1500])

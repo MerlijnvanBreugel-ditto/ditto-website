@@ -10,10 +10,12 @@ fs.mkdirSync(OUT, { recursive: true });
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const browser = await chromium.launch({ channel: "chrome", headless: true });
+const ONLY = process.env.BPS?.split(",");
 for (const vp of [
   { name: "desktop", width: 1440, height: 900 },
+  { name: "tablet", width: 810, height: 1080 },
   { name: "phone", width: 390, height: 844, mobile: true },
-]) {
+].filter((v) => !ONLY || ONLY.includes(v.name))) {
   const ctx = await browser.newContext({ viewport: vp, isMobile: !!vp.mobile, hasTouch: !!vp.mobile });
   await ctx.route(/googletagmanager|cookiebot|usercentrics|google-analytics/, (r) => r.abort());
   const page = await ctx.newPage();
@@ -40,7 +42,7 @@ for (const vp of [
     await sleep(1200);
     await page.screenshot({ path: path.join(OUT, "phone-menu-open.png") });
     fs.writeFileSync(path.join(OUT, "phone-menu-open.html"), await nav.evaluate((n) => n.closest("header, nav, [data-framer-name]")?.outerHTML ?? n.outerHTML));
-  } else {
+  } else if (vp.name === "desktop") {
     const names = await page.evaluate(() =>
       [...document.querySelectorAll('[data-framer-name="Nav"] [data-framer-name]')].map((e) => e.getAttribute("data-framer-name")),
     );
