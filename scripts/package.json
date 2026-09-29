@@ -1,0 +1,10 @@
+{
+  "name": "ditto-website-tooling",
+  "private": true,
+  "type": "module",
+  "description": "Dev tooling only (live capture, asset pipeline). Not part of the site build.",
+  "devDependencies": {
+    "playwright": "^1.55.0",
+    "sharp": "^0.34.0"
+  }
+}

@@ -7,10 +7,12 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
+import { MotionConfig } from "motion/react";
 import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { SmoothScroll } from "../components/site/SmoothScroll";
 
 function NotFoundComponent() {
   return (
@@ -77,21 +79,38 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Ditto | Care. Clarified" },
+      {
+        name: "description",
+        content:
+          "Ditto supports patients, loved ones, and professionals by improving clarity, recall, and communication in healthcare conversations.",
+      },
+      { property: "og:title", content: "Ditto | Care. Clarified" },
+      {
+        property: "og:description",
+        content:
+          "Ditto supports patients, loved ones, and professionals by improving clarity, recall, and communication in healthcare conversations.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      ...["uncut-sans-variable", "bricolage-grotesque-500", "bricolage-grotesque-600"].map(
+        (font) => ({
+          rel: "preload",
+          href: `/fonts/${font}.woff2`,
+          as: "font",
+          type: "font/woff2",
+          crossOrigin: "anonymous" as const,
+        }),
+      ),
+      { rel: "icon", href: "/favicon-light.png", media: "(prefers-color-scheme: light)" },
+      { rel: "icon", href: "/favicon-dark.png", media: "(prefers-color-scheme: dark)" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
     ],
   }),
   shellComponent: RootShell,
@@ -119,8 +138,12 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <MotionConfig reducedMotion="user">
+        <SmoothScroll>
+          {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+          <Outlet />
+        </SmoothScroll>
+      </MotionConfig>
     </QueryClientProvider>
   );
 }
