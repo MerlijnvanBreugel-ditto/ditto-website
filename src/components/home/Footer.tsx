@@ -73,9 +73,9 @@ export function Footer() {
         </div>
 
         <div className="flex flex-col gap-6">
-          <p className="max-w-[520px] text-body-18-medium text-sky-tint">
+          <p className="max-w-[520px] text-body-18-medium text-balance text-sky-tint">
             Whether you’re navigating an appointment, supporting someone you love, or exploring how
-            Ditto can help, <span className="text-soft-sand">we’re here for you.</span>
+            Ditto can help, <span className="text-light-stone">we’re here for you.</span>
           </p>
           <div className="flex flex-col items-start gap-1.5">
             <FooterLink
@@ -101,7 +101,10 @@ export function Footer() {
               ))}
             </ul>
           ))}
-          <p className="shrink-0 text-body-14-medium text-pale-horizon">© 2026 Ditto Care</p>
+          {/* Live has an empty "Designed by" row above the ©, which only shows as space on phone. */}
+          <p className="mt-[23px] shrink-0 text-body-14-medium text-pale-horizon md:mt-0">
+            © 2026 Ditto Care
+          </p>
         </div>
       </motion.div>
     </footer>

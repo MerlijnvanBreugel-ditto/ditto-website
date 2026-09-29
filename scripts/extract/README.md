@@ -2,7 +2,7 @@
 
 These scripts capture the live dittocare.com homepage so the rebuild can be checked against it. They are dev tooling only and are not part of the site build.
 
-Requirements: Node 20+, `npm i -D playwright`, and a local Google Chrome (`channel: "chrome"`). GTM and Cookiebot are blocked during capture so the consent banner doesn't cover the screenshots.
+Requirements: Node 20+, a local Google Chrome (`channel: "chrome"`), and the tooling dependencies: run `bun install` (or `npm install`) in `scripts/`. GTM and Cookiebot are blocked during capture so the consent banner doesn't cover the screenshots.
 
 | Script | Output |
 |---|---|
@@ -13,5 +13,7 @@ Requirements: Node 20+, `npm i -D playwright`, and a local Google Chrome (`chann
 | `assets.mjs` | every framerusercontent asset rendered or requested (`assets.json`) |
 | `summarize.py <bp> <regex> [depth]` | readable layer summary from `docs/extraction/<bp>/layers.json` |
 | `sheet.py` | contact sheets from screenshots |
+| `snapshot.mjs <outDir> [url]` | rendered DOM per breakpoint plus the phone menu open state, for reference while rebuilding |
+| `compare.mjs <outDir> <anchor> [offsets] [localUrl]` | live vs local side-by-side screenshots of one region, aligned on an anchor text (or `top` / `bottom`), plus a list of text elements whose box, font or colour differ. `BPS=desktop,phone` limits breakpoints, `REDUCED=1` emulates reduced motion |
 
 Pass the local preview URL to `capture.mjs` to capture the rebuild the same way.
