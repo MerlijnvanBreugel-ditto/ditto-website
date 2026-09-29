@@ -34,7 +34,7 @@ export function WordReveal({
       {words.map((word, i) => (
         <span key={i} aria-hidden>
           <motion.span
-            className="inline-block"
+            className="inline-block align-top"
             variants={{ hidden: from[variant], shown: to[variant] }}
             transition={{ duration: 0.35, ease: [0.44, 0, 0.56, 1] }}
           >

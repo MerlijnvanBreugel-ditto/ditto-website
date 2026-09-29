@@ -4,6 +4,7 @@ import { Footer } from "@/components/home/Footer";
 import { Hero } from "@/components/home/Hero";
 import { Nav } from "@/components/home/Nav";
 import { PainPoints } from "@/components/home/PainPoints";
+import { SuccessStories } from "@/components/home/SuccessStories";
 import { ThisIsDitto } from "@/components/home/ThisIsDitto";
 import { Preloader } from "@/components/home/Preloader";
 
@@ -20,6 +21,7 @@ function Index() {
         <Hero />
         <PainPoints />
         <ThisIsDitto />
+        <SuccessStories />
         {/* Remaining sections are added checkpoint by checkpoint (docs/framer-extraction.md §2). */}
         <div className="h-[200vh]" />
       </main>
