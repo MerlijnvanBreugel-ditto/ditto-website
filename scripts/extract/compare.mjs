@@ -93,7 +93,7 @@ const textIn = (page, top) =>
         y: Math.round(r.top + window.scrollY - top),
         w: Math.round(r.width),
         h: Math.round(r.height),
-        font: `${family(cs.fontFamily)} ${weight(cs)} ${cs.fontSize}/${cs.lineHeight} ls ${cs.letterSpacing}`,
+        font: `${family(cs.fontFamily)} ${weight(cs)} ${cs.fontSize}/${cs.lineHeight} ls ${cs.letterSpacing}${cs.textWrapStyle === "balance" ? " balance" : ""}`,
         color: rgb(cs.color),
         // Only the element that holds the text node renders it; wrappers inherit or ignore type.
         own: [...el.childNodes].some((n) => n.nodeType === 3 && n.textContent.trim()),

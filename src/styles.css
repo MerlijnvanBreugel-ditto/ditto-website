@@ -440,6 +440,12 @@
   --ease-framer: cubic-bezier(0.44, 0, 0.56, 1);
 
   --animate-grain: grain 1s steps(1) infinite;
+  --animate-marquee: marquee linear infinite;
+  @keyframes marquee {
+    to {
+      transform: translateX(calc(-1 * var(--marquee-distance)));
+    }
+  }
   @keyframes grain {
     0% {
       transform: translate(0, 5%);
@@ -471,5 +477,21 @@
     90% {
       transform: translate(-4%, 2%);
     }
+  }
+}
+
+/* The preloader is decorative; skip it for reduced motion, and never let it block the page
+   if scripts fail to start. */
+.preloader {
+  animation: preloader-failsafe 0s 6s forwards;
+}
+@keyframes preloader-failsafe {
+  to {
+    visibility: hidden;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .preloader {
+    display: none;
   }
 }
