@@ -74,25 +74,29 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   );
 }
 
+const SITE = "https://www.dittocare.com";
+const TITLE = "Ditto | Care. Clarified";
+const DESCRIPTION =
+  "Ditto supports patients, loved ones, and professionals by improving clarity, recall, and communication in healthcare conversations.";
+
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ditto | Care. Clarified" },
-      {
-        name: "description",
-        content:
-          "Ditto supports patients, loved ones, and professionals by improving clarity, recall, and communication in healthcare conversations.",
-      },
-      { property: "og:title", content: "Ditto | Care. Clarified" },
-      {
-        property: "og:description",
-        content:
-          "Ditto supports patients, loved ones, and professionals by improving clarity, recall, and communication in healthcare conversations.",
-      },
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { name: "robots", content: "max-image-preview:large" },
+      { name: "google-site-verification", content: "cnEDE-MYuKECuEglxZw32wo8jj9A1_NpSSqGVvjhyhY" },
       { property: "og:type", content: "website" },
+      { property: "og:url", content: `${SITE}/` },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:image", content: `${SITE}/og-image.png` },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: TITLE },
+      { name: "twitter:description", content: DESCRIPTION },
+      { name: "twitter:image", content: `${SITE}/og-image.png` },
     ],
     links: [
       {
@@ -108,9 +112,22 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           crossOrigin: "anonymous" as const,
         }),
       ),
+      { rel: "canonical", href: `${SITE}/` },
+      { rel: "alternate", hrefLang: "en", href: `${SITE}/` },
+      { rel: "alternate", hrefLang: "nl-NL", href: `${SITE}/nl/` },
+      { rel: "alternate", hrefLang: "x-default", href: `${SITE}/` },
       { rel: "icon", href: "/favicon-light.png", media: "(prefers-color-scheme: light)" },
       { rel: "icon", href: "/favicon-dark.png", media: "(prefers-color-scheme: dark)" },
       { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
+    ],
+    // Google Tag Manager (which also loads the Cookiebot consent banner), only on the real
+    // domain so Lovable previews and local development don't send analytics.
+    scripts: [
+      {
+        children: `if (/(^|\\.)dittocare\\.com$/.test(location.hostname)) {
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-P9R6C66Z');
+}`,
+      },
     ],
   }),
   shellComponent: RootShell,

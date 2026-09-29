@@ -1,4 +1,5 @@
-import * as Accordion from "@radix-ui/react-accordion";
+import { motion } from "motion/react";
+import { useId, useState } from "react";
 
 import { Reveal } from "@/components/site/Reveal";
 
@@ -34,6 +35,62 @@ const faqs = [
   },
 ];
 
+const ease = [0.44, 0, 0.56, 1] as const;
+
+/**
+ * One answer open at a time. Answers stay in the page (as on live, and for search engines)
+ * and slide open over 0.5s while the icon turns half a turn; closed answers are inert.
+ */
+function FaqList() {
+  const [open, setOpen] = useState<number | null>(null);
+  const id = useId();
+
+  return (
+    <ul className="flex flex-col gap-1.5">
+      {faqs.map((faq, i) => {
+        const isOpen = open === i;
+        return (
+          <li key={faq.question} className="overflow-hidden rounded-[11px] bg-soft-sand">
+            <h3>
+              <button
+                type="button"
+                aria-expanded={isOpen}
+                aria-controls={`${id}-${i}`}
+                onClick={() => setOpen(isOpen ? null : i)}
+                className="flex w-full cursor-pointer items-center justify-between p-5 text-left md:p-6"
+              >
+                <span className="text-faq-question text-ditto-midnight">{faq.question}</span>
+                <motion.img
+                  src="/assets/faq-plus.svg"
+                  alt=""
+                  width={20}
+                  height={20}
+                  className="ml-5 size-5 shrink-0"
+                  initial={false}
+                  animate={{ rotate: isOpen ? 180 : 0 }}
+                  transition={{ duration: 0.5, ease }}
+                />
+              </button>
+            </h3>
+            <motion.div
+              id={`${id}-${i}`}
+              className="overflow-hidden"
+              initial={false}
+              animate={{ height: isOpen ? "auto" : 0 }}
+              transition={{ duration: 0.5, ease }}
+              inert={!isOpen}
+            >
+              <p className="px-5 pb-6 text-faq-answer text-atlantic-blue md:pr-20 md:pl-6">
+                {faq.answer}
+              </p>
+            </motion.div>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 export function Faq() {
   return (
     <section className="mx-auto w-full max-w-[1600px]">
@@ -47,34 +104,7 @@ export function Faq() {
           </Reveal>
 
           <Reveal className="rounded-2xl bg-pale-horizon p-1.5 md:flex-1">
-            {/* One answer open at a time; the answer slides open and the icon turns half a turn. */}
-            <Accordion.Root type="single" collapsible className="flex flex-col gap-1.5">
-              {faqs.map((faq) => (
-                <Accordion.Item
-                  key={faq.question}
-                  value={faq.question}
-                  className="overflow-hidden rounded-[11px] bg-soft-sand"
-                >
-                  <Accordion.Header>
-                    <Accordion.Trigger className="group flex w-full cursor-pointer items-center justify-between p-5 text-left md:p-6">
-                      <span className="text-faq-question text-ditto-midnight">{faq.question}</span>
-                      <img
-                        src="/assets/faq-plus.svg"
-                        alt=""
-                        width={20}
-                        height={20}
-                        className="ml-5 size-5 shrink-0 transition-transform duration-500 ease-framer group-data-[state=open]:rotate-180"
-                      />
-                    </Accordion.Trigger>
-                  </Accordion.Header>
-                  <Accordion.Content className="overflow-hidden duration-500 ease-framer data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down">
-                    <p className="px-5 pb-6 text-faq-answer text-atlantic-blue md:pr-20 md:pl-6">
-                      {faq.answer}
-                    </p>
-                  </Accordion.Content>
-                </Accordion.Item>
-              ))}
-            </Accordion.Root>
+            <FaqList />
           </Reveal>
         </div>
       </div>

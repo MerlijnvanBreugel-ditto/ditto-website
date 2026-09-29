@@ -1,4 +1,4 @@
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 
 import { Grain } from "@/components/site/Grain";
@@ -50,13 +50,15 @@ function FooterLink({
 export function Footer() {
   const ref = useRef<HTMLElement>(null);
   const desktop = useMinWidth(1200);
+  const reduced = useReducedMotion();
+  const parallax = desktop && !reduced;
 
   // Desktop only: the content rises out from behind the section above. It starts 2/3 of the
   // footer's distance to the viewport top higher (at most 600px) and settles when the footer
   // reaches the top of the viewport.
   const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "start start"] });
   const y = useTransform(scrollYProgress, (p) =>
-    desktop ? Math.max(-600, (-2 / 3) * window.innerHeight * (1 - p)) : 0,
+    parallax ? Math.max(-600, (-2 / 3) * window.innerHeight * (1 - p)) : 0,
   );
 
   return (

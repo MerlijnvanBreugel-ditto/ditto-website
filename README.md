@@ -21,6 +21,17 @@ npm i
 npm run dev
 ```
 
+## Ditto website
+
+This is the dittocare.com homepage, rebuilt from Framer. It aims to look and move exactly like the live page at 1440, 810 and 390px.
+
+- `docs/framer-extraction.md`: the spec extracted from Framer and the live site.
+- `src/components/home/`: one component per section, in page order (see `src/routes/index.tsx`).
+- `src/styles.css`: brand colours, breakpoints and the Framer text styles.
+- `scripts/`: dev tooling, not part of the site. The asset pipeline is in `scripts/assets/` and the live capture and comparison tools are in `scripts/extract/`. Run `bun install` in `scripts/` first.
+
+Links to other pages point at the live site (www.dittocare.com). Google Tag Manager, and with it the Cookiebot banner, only loads on dittocare.com hostnames.
+
 ## Built with
 
 - TanStack Start

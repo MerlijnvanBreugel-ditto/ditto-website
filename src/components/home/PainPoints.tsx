@@ -1,5 +1,11 @@
 import { Alarm, Brain, PhoneCall, type Icon } from "@phosphor-icons/react";
-import { motion, useMotionValueEvent, useScroll, useTransform } from "motion/react";
+import {
+  motion,
+  useMotionValueEvent,
+  useReducedMotion,
+  useScroll,
+  useTransform,
+} from "motion/react";
 import { useRef, useState } from "react";
 
 import { Grain } from "@/components/site/Grain";
@@ -69,7 +75,8 @@ function Card({ card, index }: { card: (typeof cards)[number]; index: number }) 
     target: trigger,
     offset: index === 0 ? ["start center", "end center"] : ["start start", "end start"],
   });
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
+  const reduced = useReducedMotion();
+  const scale = useTransform(scrollYProgress, [0, 1], reduced ? [1, 1] : [1, 0.9]);
   const Icon = card.icon;
 
   return (

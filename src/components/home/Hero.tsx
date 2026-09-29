@@ -1,5 +1,5 @@
 import { DeviceMobile } from "@phosphor-icons/react";
-import { motion, useScroll, useTransform } from "motion/react";
+import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 
 import { Button } from "@/components/site/Button";
@@ -72,10 +72,12 @@ function QrTile() {
 export function Hero() {
   const frame = useRef<HTMLDivElement>(null);
   const desktop = useMinWidth(1200);
+  const reduced = useReducedMotion();
+  const zoom = desktop && !reduced;
 
   // Desktop only: the photo zooms out from 1.2 to 1 as its frame scrolls fully into view.
   const { scrollYProgress } = useScroll({ target: frame, offset: ["start end", "end end"] });
-  const scale = useTransform(scrollYProgress, (p) => (desktop ? 1.2 - 0.2 * p : 1));
+  const scale = useTransform(scrollYProgress, (p) => (zoom ? 1.2 - 0.2 * p : 1));
 
   return (
     <section className="mx-auto w-full max-w-[1600px] bg-soft-sand">
