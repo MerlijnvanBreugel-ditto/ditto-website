@@ -14,7 +14,31 @@ depth = int(sys.argv[3]) if len(sys.argv) > 3 else 0
 nth = int(sys.argv[4]) if len(sys.argv) > 4 else 0
 html = (Path(__file__).resolve().parents[2] / ".cache/live" / f"{bp}.html").read_text()
 css = " ".join(re.findall(r"<style[^>]*>(.*?)</style>", html, re.S))
-rules = [r.strip() + "}" for r in css.split("}") if r.strip()]
+
+
+def parse(text):
+    """Flatten the stylesheet into (media, rule) pairs, keeping each rule's @media context."""
+    out, stack, start, depth = [], [], 0, 0
+    for i, ch in enumerate(text):
+        if ch == "{":
+            prelude = text[start:i].strip()
+            if prelude.startswith("@"):
+                stack.append((depth, prelude))
+                start = i + 1
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if stack and stack[-1][0] == depth:
+                stack.pop()
+                start = i + 1
+            elif not stack or depth > stack[-1][0]:
+                media = " and ".join(p for _, p in stack if p.startswith("@media"))
+                out.append((media, text[start : i + 1].strip()))
+                start = i + 1
+    return out
+
+
+rules = parse(css)
 
 
 class Walker(HTMLParser):
@@ -50,6 +74,7 @@ for level, tag, fname, classes in w.out:
     for c in classes.split():
         if not c.startswith("framer-") or c.startswith("framer-v-") or len(c) < 12:
             continue
-        for r in rules:
+        for media, r in rules:
             if re.search(r"\." + re.escape(c) + r"(?![\w-])", r.split("{")[0]):
-                print("  " * level + "   " + r[:1500])
+                where = media.replace("@media ", "").replace("(min-width: ", ">=").replace("(max-width: ", "<=").replace("px)", "") or "all"
+                print("  " * level + f"   [{where}] " + r[:1500])
