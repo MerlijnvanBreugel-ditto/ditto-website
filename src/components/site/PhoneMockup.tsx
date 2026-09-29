@@ -3,8 +3,8 @@ import type { ImageName } from "@/lib/images.gen";
 import { cn } from "@/lib/utils";
 
 /**
- * An app screenshot inside the iPhone frame (Framer "Variant 1" phone component,
- * 300×605 at full size). Give it a width; the height follows the frame's aspect ratio.
+ * An app screenshot inside the iPhone frame (Framer's phone component). Give it a width;
+ * the frame image sets the height. The screen is 90% wide and sits 9px from the top.
  */
 export function PhoneMockup({
   screen,
@@ -20,10 +20,10 @@ export function PhoneMockup({
   screenClassName?: string;
 }) {
   return (
-    <figure className={cn("relative aspect-[300/605]", className)}>
+    <figure className={cn("relative", className)}>
       <div
         className={cn(
-          "absolute top-[1.5%] left-1/2 aspect-[0.461774] w-[90%] -translate-x-1/2 overflow-hidden",
+          "absolute top-[9px] left-1/2 aspect-[0.461774] w-[90%] -translate-x-1/2 overflow-hidden",
           screenClassName,
         )}
       >
@@ -33,7 +33,7 @@ export function PhoneMockup({
         name="iphone-frame"
         alt=""
         sizes={sizes}
-        className="pointer-events-none absolute inset-x-[0.67%] top-0 aspect-[0.491156] w-[98.67%]"
+        className="pointer-events-none relative mx-[2px] block h-auto w-[calc(100%-4px)]"
       />
     </figure>
   );

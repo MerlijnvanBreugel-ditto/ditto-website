@@ -125,7 +125,7 @@ export function ThisIsDitto() {
 
   return (
     <section className="mx-auto flex h-[969px] w-full max-w-[1600px] flex-col items-center justify-center overflow-clip px-3 md:h-auto md:p-5 lg:justify-start lg:px-10 lg:py-0">
-      <div aria-hidden className="hidden h-[4vh] lg:block" />
+      <div aria-hidden className="hidden h-[3.875vh] lg:block" />
       <div className="flex w-full shrink-0 flex-col items-center overflow-hidden rounded-t-[30px] bg-soft-sand py-[50px] md:rounded-tl-[20px] md:rounded-tr-[40px] md:bg-linear-to-b md:from-light-stone md:to-soft-sand md:py-20 lg:h-[851px] lg:w-[1200px] lg:rounded-none lg:bg-none lg:px-10 lg:pt-[30px] lg:pb-0">
         <div className="flex w-full flex-col items-center gap-10 md:w-[90%] md:max-w-[1080px] lg:w-full lg:max-w-[1200px]">
           <div className="flex w-[90%] flex-col items-center gap-[7px] text-center md:w-1/2 md:gap-6 lg:gap-1.5">

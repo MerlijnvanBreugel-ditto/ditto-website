@@ -32,7 +32,8 @@ export function Picture({
 } & Omit<ImgHTMLAttributes<HTMLImageElement>, "src" | "srcSet" | "sizes" | "alt">) {
   const { width, height } = images[name];
   return (
-    <picture>
+    // display: contents, so the <img> is what takes part in layout (flex gaps, absolute positioning).
+    <picture className="contents">
       {phone && <source media="(max-width: 809.98px)" srcSet={srcSet(phone)} sizes={sizes} />}
       <img
         src={largest(name)}

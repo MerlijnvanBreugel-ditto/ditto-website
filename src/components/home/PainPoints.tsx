@@ -157,7 +157,7 @@ export function PainPoints() {
         </div>
         <div aria-hidden className="h-[10vh] w-full" />
       </section>
-      <div aria-hidden className="hidden h-[4vh] md:block" />
+      <div aria-hidden className="hidden h-[3.875vh] md:block" />
     </>
   );
 }
